@@ -47,10 +47,11 @@ var app = {
         console.log('Received Event: ' + id);
     }
     
-    // vibrate function for 1000 milliseconds
+   
+};
+ // vibrate function for 1000 milliseconds
     function shake(){
         
         navigator.vibrate(1000);
     
     }
-};
